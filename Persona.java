@@ -63,9 +63,6 @@ public class Persona {
         return Persona.universidad;
     }
 
-    public static void setUniversidad(String universidad){
-        Persona.universidad = universidad;
-    }
 
     public void mostrarInfo() {
         System.out.println("Apellido: " + apellido);
@@ -80,7 +77,7 @@ public class Persona {
     }
     
     public void saludar() {
-        System.out.println("¡Hola, soy " + this.nombre + "!");
+        System.out.println("Hola, soy " + this.nombre + "!");
     }
     
 
